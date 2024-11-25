@@ -1,0 +1,15 @@
+La clase Libro tiene las siguientes propiedades:
+titulo (string): El título del libro.
+autor (string): El autor del libro.
+anioPublicacion (int): El año de publicación del libro.
+disponible (bool): Si el libro está disponible para préstamo
+Y los siguientes métodos: 
+Un constructor para inicializar los valores del libro.  
+prestarLibro(): Cambia el estado de disponibilidad a false si el libro está disponible.
+devolverLibro(): Cambia el estado de disponibilidad a true.
+mostrarInformacion(): Imprime la información del libro:
+Una vez creada la clase realizar las siguientes tareas:
+1. Crear 3 objetos de tipo Libro con datos diferentes
+2. Intentar prestar un libro ya prestado.
+3. Devolver un de los libros y verificar su estado.
+4. Demostrar el uso de todos los métodos
